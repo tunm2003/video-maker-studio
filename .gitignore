@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Video refs (tracked via .gitkeep, actual files ignored)
+video_refs/*.mp4
+video_refs/*.mov
+video_refs/*.avi
+
+# Temp & output files
+temp/
+outputs/
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
